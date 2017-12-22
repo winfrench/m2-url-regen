@@ -1,0 +1,12 @@
+.DS_Store
+/.idea
+/.project
+*~
+*.bak
+*.db
+*.swp
+*.tmp
+*.tar
+*.zip
+*.tar.gz
+*.sql.gz
