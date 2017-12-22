@@ -1,0 +1,23 @@
+{
+  "name": "winfrench/m2-url-regen",
+  "description": "Create feature that allows a user to regenerate URL rewrites via command line since Magento 2 does not do this via indexing.",
+  "type": "magento2-module",
+  "version": "0.0.1",
+  "homepage": "https://github.com/winfrench/m2-url-regen",
+  "license": [
+    "OSL-3.0",
+    "AFL-3.0"
+  ],
+  "require": {
+  },
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Winfrench\\RegenUrl\\": ""
+    }
+  },
+  "minimum-stability": "alpha",
+  "prefer-stable": true
+}
